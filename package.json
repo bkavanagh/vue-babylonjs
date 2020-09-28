@@ -53,7 +53,7 @@
     "@babel/runtime": "^7.4.5",
     "@babylonjs/core": "^4.1.0",
     "@babylonjs/inspector": "^4.1.0",
-    "@babylonjs/loaders": "^4.1.0,
+    "@babylonjs/loaders": "^4.1.0",
     "@vue/test-utils": "^1.0.0-beta.25",
     "ava": "^2.0.0",
     "begin-build": "^0.16.15",
