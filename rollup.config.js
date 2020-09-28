@@ -1,6 +1,6 @@
-import babel from 'rollup-plugin-babel';
-import resolve from 'rollup-plugin-node-resolve';
-import commonjs from 'rollup-plugin-commonjs';
+import babel from '@rollup/plugin-babel';
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
 import cleanup from 'rollup-plugin-cleanup';
 // import { fileSync as find } from 'find';
 
@@ -8,8 +8,6 @@ const name = 'VueBabylonjs';
 const plugins = [
   resolve(),
   babel({
-    runtimeHelpers: true,
-    plugins: ['@babel/plugin-external-helpers', '@babel/plugin-transform-runtime'],
     ignore: ['node_modules/!(@babylonjs)'],
   }),
   commonjs({
